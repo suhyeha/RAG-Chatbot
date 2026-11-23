@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ERICA 대학생활 안내 챗봇</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #f3f5f9;
+        font-family: Arial, sans-serif;
+        color: #20283a;
+      }
+
+      main {
+        width: min(560px, 85%);
+        padding: 32px;
+        border-radius: 20px;
+        background: white;
+        box-shadow: 0 8px 30px #18233b18;
+      }
+
+      .label {
+        color: #3157b7;
+        font-weight: bold;
+      }
+
+      .message {
+        margin: 24px 0;
+        padding: 16px;
+        border-radius: 12px;
+        background: #f3f5f9;
+        line-height: 1.6;
+      }
+
+      input {
+        box-sizing: border-box;
+        width: 75%;
+        padding: 12px;
+        border: 1px solid #ccd2df;
+        border-radius: 8px;
+      }
+
+      button {
+        padding: 12px 16px;
+        border: 0;
+        border-radius: 8px;
+        background: #3157b7;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="label">HANYANG ERICA · CAMPUS GUIDE</p>
+      <h1>대학생활 안내 챗봇</h1>
+      <p>학사 일정, 휴학, 장학금 정보를 찾아보세요.</p>
+
+      <div class="message">
+        안녕하세요! 학교생활에 대해 궁금한 점을 입력해 주세요.
+      </div>
+
+      <input type="text" placeholder="예: 일반휴학은 어떻게 신청하나요?" />
+      <button type="button">전송</button>
+    </main>
+  </body>
+</html>
